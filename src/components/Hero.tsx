@@ -53,7 +53,7 @@ export const Hero: React.FC = () => {
             />
             {/* Core blur layer - strongest */}
             <div
-              className="absolute inset-0 -m-6 backdrop-blur-lg bg-white/[0.08] rounded-md"
+              className="absolute inset-0 -m-6 backdrop-blur-lg bg-white/[0.08] rounded-4xl"
               style={{
                 maskImage: 'radial-gradient(ellipse 80% 80% at center, black 30%, transparent 100%)',
                 WebkitMaskImage: 'radial-gradient(ellipse 80% 80% at center, black 30%, transparent 100%)'
